@@ -1,0 +1,413 @@
+ *{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+ 
+}
+
+body{
+    /* background: #080808; */
+    color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* #header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(blackIMG.jpg); 
+    background-size: cover;
+    background-position: center;
+} */
+
+.sidebar{
+  position: absolute;
+    height: 12rem;
+    border-radius: 9px;
+    background-color: rgb(211, 190, 190); 
+    /* width: 200px; */
+    .fjalla-one-regular {
+        font-family: "Fjalla One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      height: 100vh;
+      transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 1rem;
+  
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 33px 0;
+    margin-top: 1.67rem;
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+  
+}
+
+ .main{
+     /* background-color: yellow;  */
+    color: white;
+    width: 90vw;
+} 
+#header{
+    display: flex;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+     background: url(blackIMG.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.infoContainer{
+    /* background-color: rgb(174, 186, 64); */
+    height: 61vh;
+    width: 64vw;
+    /* margin: 53px auto; */
+    /* height: 58vh;
+    width: 76vw;
+    margin: 112px auto; */
+    margin: 5.25rem 4.17rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+} 
+.devInfo{
+  font-size: 15px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.hello{
+ font-size: 3.83rem;
+ .pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+}
+
+.name{
+ font-size: 2.6em;
+ font-weight: bold;
+ .fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.from{
+ font-size: 27px;
+ .pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+}
+.buttons{
+    margin-top: 2.33em;
+    font-size: 16px;
+}
+
+.btn{
+    padding: .41rem 1.25rem;
+    border-radius: 1.25rem;
+    color: #fff;
+    background-color: rgb(70, 141, 195);
+    font-size: 1.8em;
+    margin: 3px .25rem;
+    cursor: pointer;
+ .fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+}
+
+.btn-sm{
+    font-size: .83rem;
+    padding: .58rem 1.08rem;
+    margin: 1.67rem 0;
+    margin-top: -2px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.devPic img{
+  height: 58vh;
+}
+
+
+/* Contact.html style */
+
+.contactform{
+    padding: 0 5.33rem;
+    padding-top: 4.67rem;
+    margin-top: -3.33rem;
+    .fjalla-one-regular {
+        font-family: "Fjalla One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+.contactform h1{
+    padding: 0 5.5rem;
+    margin: 2px -50px;
+    margin-bottom: 3px;
+    /* padding: 12px 0; */
+}
+.mb-3{
+  margin-top: -20px;
+}
+
+.contactform form div{
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    /* width: 28vw; */
+    border-radius: .42rem;
+    margin: .32rem 0 0 0;
+    padding: .25rem;
+}
+
+#emailHelp{
+    color: rgb(131, 139, 137);
+    font-size: 1.17rem;
+}
+
+#form-check{
+ flex-direction: row;
+}
+
+#form-check input{
+    width: 2rem;
+    margin: .2rem 0;
+}
+
+
+/* Education.html style */
+
+.educlass{
+ margin: 2rem 6.17rem;
+ .fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+
+.educontainer h1{
+   margin: 4.5rem 6.25rem;
+}
+
+.educlass p{
+  margin-top: .33rem;
+  .fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+ /* skills */
+
+.skillcontainer{
+  padding: 1.83rem;
+  margin: 0 2.1rem;
+  .fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+.skillcontainer h1{
+  .pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+}
+.skillclass{
+  /* margin: 18px; */
+  margin-top: .33rem;
+  margin: 1rem 1.5rem;
+  padding: .5rem .67rem;
+}
+.skillItem{
+  display: flex;
+  align-items: center;
+  margin: .67rem;
+  /* border: 2px solid white; */
+}
+.techskill{
+ width: 263px;
+ height: 8px;
+ border: 2px solid black;
+ 
+}
+
+.seventy{
+  width: 300px;
+  background-color: rgb(44, 184, 44);
+}
+.eighty{
+  width: 340px;
+  background-color: green;
+}
+.sixtifive{
+  width: 260px;
+  background-color: rgb(133, 206, 60);
+}
+.fifty{
+  width: 200px;
+  background-color: rgb(36, 36, 205);
+}
+.seventyfive{
+  width: 320px;
+  background-color: rgb(26, 137, 26);
+}
+.basic{
+  width: 170px;
+  background-color: rgb(236, 47, 47);
+}
+.sixtyfive{
+  width: 260px;
+  background-color: greenyellow;
+}
+
+
+/* projects.html style */
+.proclass{
+  margin: 2.5rem;
+}
+.procontainer{
+  margin: 2.17rem;
+}
+.procontainer h1{
+  margin: 2.33rem;
+  padding: .42rem .17rem;
+}
+.procontainer p{
+  margin-top: .33rem;
+}
+.proclass p{
+  font-size: 1.67rem;
+  .fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+
+/* responsive */
+.sidebarGo{
+    transform: translate(-16.58rem, 0rem);
+    position: absolute;
+}
+.menubarger{
+  position: absolute;
+  cursor: pointer;
+  top: .67rem;
+  left: .83rem;
+  /* margin: -5px; */
+}
+.cross{
+  margin-left: 6rem;
+}
+ @media (max-width: 62.25rem) {
+   
+    /* background-color: red; */
+   .devPic{
+    display: none;
+  }
+   /* .sidebar{
+    transform: translate(-199px, 0px);
+    position: absolute;
+  }  */
+} 
+
+.devInfo{
+  font-size: 10px;
+}
+.buttons{
+  font-size: 6.5px;
+}
